@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(45deg, #790977, #00d4ff);
+}
+.bx {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 50px 40px;
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+}
+.result {
+  display: flex;
+}
+#inpt {
+  height: 50px;
+  width: 400px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 1.3rem;
+  color: white;
+}
+#inpt:active {
+  border: none;
+}
+#age_calculate {
+  width: 120px;
+  height: 50px;
+  background: #790977;
+  color: white;
+  font-size: 1.3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
